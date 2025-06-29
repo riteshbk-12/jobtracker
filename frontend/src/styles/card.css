@@ -1,0 +1,54 @@
+.job-card {
+  width: 100%;
+  max-width: 400px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+  margin: 20px auto;
+  text-align: left;
+  font-family: 'Segoe UI', sans-serif;
+  transition: transform 0.2s ease-in-out;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+}
+
+.job-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.company-name {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.job-location,
+.salary,
+.experience {
+  font-size: 15px;
+  margin: 6px 0;
+  color: #444;
+}
+
+.apply-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 16px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.apply-button:hover {
+  background-color: #0056b3;
+}

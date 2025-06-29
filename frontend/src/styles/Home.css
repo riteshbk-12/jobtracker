@@ -1,0 +1,62 @@
+.home-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+  background-color: #f7f9fc;
+  min-height: 100vh;
+}
+
+.home-header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 40px 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.home-header h1 {
+  margin: 0;
+  font-size: 48px;
+}
+
+.home-header p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.features-section {
+  margin: 30px 0;
+}
+
+.features-section h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+.features-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.features-section li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.cta-section {
+  margin-top: 40px;
+}
+
+.cta-section button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cta-section button:hover {
+  background-color: #3a78c2;
+}
